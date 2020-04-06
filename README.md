@@ -1,2 +1,2 @@
-# udacity-project-one
-Project One - Blog (HTML, CSS). Training project for Udacity.com
+# Project One - Blog (HTML, CSS).  
+Training project for Udacity.com
