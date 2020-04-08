@@ -9,211 +9,254 @@
 </head>
 <body>
 
-    <div class="container">
-
-        <header class="header">
-            <a class="logo-lg"></a>
-            <nav>
-                <ul class="main-menu">
-                    <li class="menu-item"><a href="#">Item 1</a></li>
-                    <li class="menu-item"><a href="#">Item 2</a></li>
-                    <li class="menu-item"><a href="#">Item 3</a></li>
-                    <li class="menu-item"><a href="#">Item 4</a></li>
+    <header class="header">
+        <div class="header-wrap">
+            <a href="/" class="logo-lg"></a>
+            <nav class="main-menu">
+                <ul class="menu-content">
+                    <li class="menu-item"><a class="menu-item-link active" href="#">Home</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">HTML</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">CSS</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">JavaScript</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">About Me</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">Subscribe</a></li>
                 </ul>
             </nav>
-        </header>
+        </div>
+    </header>
 
-        <div class="content">
+    <div class="container">
+        <main class="content">
 
-            <aside>
-                <section class="search">
-                    <form action="" method="">
-                        <input type="search" placeholder="Search" value=""> 
-                        <input type="submit" value="">
-                    </form>
-                </section>
-
-                <section class="headings">
-                    <nav>
-                        <ul class="second-menu">
-                            <li class="menu-item"><a href="#">Item 1</a></li>
-                            <li class="menu-item"><a href="#">Item 2</a></li>
-                            <li class="menu-item"><a href="#">Item 3</a></li>
-                            <li class="menu-item"><a href="#">Item 4</a></li>
-                        </ul>
-                    </nav>
-                </section>
-
-                <section class="news">
-                    <nav>
-                        <ul class="second-menu">
-                            <li class="menu-item"><a href="#">Item 1</a></li>
-                            <li class="menu-item"><a href="#">Item 2</a></li>
-                            <li class="menu-item"><a href="#">Item 3</a></li>
-                            <li class="menu-item"><a href="#">Item 4</a></li>
-                        </ul>
-                    </nav>
-                </section>
-                
-                <section class="archives">
-                    <nav>
-                        <ul class="second-menu">
-                            <li class="menu-item"><a href="#">Item 1</a></li>
-                            <li class="menu-item"><a href="#">Item 2</a></li>
-                            <li class="menu-item"><a href="#">Item 3</a></li>
-                            <li class="menu-item"><a href="#">Item 4</a></li>
-                        </ul>
-                    </nav>
-                </section>
-
-            </aside>
-
-            <main>
-                
-                <section class="card">
-                    <img src="images/medium/image_md_1.jpg" class="card-image" alt="Post 1">
-                    <div class="card-body">
+            <section class="card">
+                <div class="card-body">
+                    <div class="card-header">
+                        <img src="images/medium/image_md_1.jpg" class="card-image" alt="Post 1">
                         <div class="card-section">Events</div>
                         <h5 class="card-title">Post 1 title</h5>
                         <div class="card-date">04-26-2020</div>
-                        <h6 class="card-subtitle">Subtitle</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nesciunt nihil rerum perferendis, autem quae.</p>
-                        <a href="#" class="card-link-more">More...</a>
                     </div>
-                    <ul class="card-tags">
-                        <li class="tag-item"><a href="#">#item1</a></li>
-                        <li class="tag-item"><a href="#">#item2</a></li>
+                    <h6 class="card-subtitle">Subtitle</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nesciunt nihil rerum perferendis, autem quae.</p>
+                    <a href="#" class="card-link-more">More...</a>
+                </div>
+                <div class="card-tags">
+                    <div class="card-tags-title">Tags: </div>
+                    <ul class="card-tags-items">
+                        <li class="card-tags-item"><a href="#">#HTML</a></li>
+                        <li class="card-tags-item"><a href="#">#JavaScript</a></li>
                     </ul>
-                </section>
+                </div>
+            </section>
 
-                <section class="card">
-                    <img src="images/medium/image_md_2.jpg" class="card-image" alt="Post 2">
-                    <div class="card-body">
-                        <div class="card-section">JavaScript</div>
+            <section class="card">
+                <div class="card-body">
+                    <div class="card-header">
+                        <img src="images/medium/image_md_2.jpg" class="card-image" alt="Post 2">
+                        <div class="card-section">Events</div>
                         <h5 class="card-title">Post 2 title</h5>
                         <div class="card-date">04-27-2020</div>
-                        <h6 class="card-subtitle">Subtitle</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nam necessitatibus nesciunt rem provident explicabo.</p>
-                        <a href="#" class="card-link-more">More...</a>
                     </div>
-                    <ul class="card-tags">
-                        <li class="tag-item"><a href="#">#item1</a></li>
-                        <li class="tag-item"><a href="#">#item2</a></li>
+                    <h6 class="card-subtitle">Subtitle</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nesciunt nihil rerum perferendis, autem quae.</p>
+                    <a href="#" class="card-link-more">More...</a>
+                </div>
+                <div class="card-tags">
+                    <div class="card-tags-title">Tags: </div>
+                    <ul class="card-tags-items">
+                        <li class="card-tags-item"><a href="#">#HTML</a></li>
+                        <li class="card-tags-item"><a href="#">#JavaScript</a></li>
                     </ul>
-                </section>
+                </div>
+            </section>
 
-                <section class="card">
-                    <img src="images/medium/image_md_3.jpg" class="card-image" alt="Post 3">
-                    <div class="card-body">
-                        <div class="card-section">Design</div>
+            <section class="card">
+                <div class="card-body">
+                    <div class="card-header">
+                        <img src="images/medium/image_md_3.jpg" class="card-image" alt="Post 3">
+                        <div class="card-section">Events</div>
                         <h5 class="card-title">Post 3 title</h5>
                         <div class="card-date">04-28-2020</div>
-                        <h6 class="card-subtitle">Subtitle</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus vel consequatur, aut amet autem!</p>
-                        <a href="#" class="card-link-more">More...</a>
                     </div>
-                    <ul class="card-tags">
-                        <li class="tag-item"><a href="#">#item1</a></li>
-                        <li class="tag-item"><a href="#">#item2</a></li>
+                    <h6 class="card-subtitle">Subtitle</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nesciunt nihil rerum perferendis, autem quae.</p>
+                    <a href="#" class="card-link-more">More...</a>
+                </div>
+                <div class="card-tags">
+                    <div class="card-tags-title">Tags: </div>
+                    <ul class="card-tags-items">
+                        <li class="card-tags-item"><a href="#">#HTML</a></li>
+                        <li class="card-tags-item"><a href="#">#JavaScript</a></li>
                     </ul>
-                </section>
+                </div>
+            </section>
 
-                <section class="card">
-                    <img src="images/medium/image_md_4.jpg" class="card-image" alt="Post 4">
-                    <div class="card-body">
+            <section class="card">
+                <div class="card-body">
+                    <div class="card-header">
+                        <img src="images/medium/image_md_4.jpg" class="card-image" alt="Post 4">
                         <div class="card-section">Events</div>
                         <h5 class="card-title">Post 4 title</h5>
-                        <div class="card-date">04-29-2020</div>
-                        <h6 class="card-subtitle">Subtitle</h6>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium unde nulla illo cupiditate! Pariatur, inventore!</p>
-                        <a href="#" class="card-link-more">More...</a>
+                        <div class="card-date">04-30-2020</div>
                     </div>
-                    <ul class="card-tags">
-                        <li class="tag-item"><a href="#">#item1</a></li>
-                        <li class="tag-item"><a href="#">#item2</a></li>
+                    <h6 class="card-subtitle">Subtitle</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nesciunt nihil rerum perferendis, autem quae.</p>
+                    <a href="#" class="card-link-more">More...</a>
+                </div>
+                <div class="card-tags">
+                    <div class="card-tags-title">Tags: </div>
+                    <ul class="card-tags-items">
+                        <li class="card-tags-item"><a href="#">#HTML</a></li>
+                        <li class="card-tags-item"><a href="#">#JavaScript</a></li>
                     </ul>
-                </section>
+                </div>
+            </section>
 
-                <section class="card">
-                    <img src="images/medium/image_md_5.jpg" class="card-image" alt="Post 5">
-                    <div class="card-body">
-                        <div class="card-section">Python</div>
+            <section class="card">
+                <div class="card-body">
+                    <div class="card-header">
+                        <img src="images/medium/image_md_5.jpg" class="card-image" alt="Post 5">
+                        <div class="card-section">Events</div>
                         <h5 class="card-title">Post 5 title</h5>
                         <div class="card-date">05-01-2020</div>
-                        <h6 class="card-subtitle">Subtitle</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id consequuntur reprehenderit maiores, saepe nam?</p>
-                        <a href="#" class="card-link-more">More...</a>
                     </div>
-                    <ul class="card-tags">
-                        <li class="tag-item"><a href="#">#item1</a></li>
-                        <li class="tag-item"><a href="#">#item2</a></li>
+                    <h6 class="card-subtitle">Subtitle</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nesciunt nihil rerum perferendis, autem quae.</p>
+                    <a href="#" class="card-link-more">More...</a>
+                </div>
+                <div class="card-tags">
+                    <div class="card-tags-title">Tags: </div>
+                    <ul class="card-tags-items">
+                        <li class="card-tags-item"><a href="#">#HTML</a></li>
+                        <li class="card-tags-item"><a href="#">#JavaScript</a></li>
                     </ul>
-                </section>
+                </div>
+            </section>
 
-                <section class="card">
-                    <img src="images/medium/image_md_6.jpg" class="card-image" alt="Post 6">
-                    <div class="card-body">
-                        <div class="card-section">HTML</div>
+            <section class="card">
+                <div class="card-body">
+                    <div class="card-header">
+                        <img src="images/medium/image_md_6.jpg" class="card-image" alt="Post 6">
+                        <div class="card-section">Events</div>
                         <h5 class="card-title">Post 6 title</h5>
-                        <div class="card-date">05-03-2020</div>
-                        <h6 class="card-subtitle">Subtitle</h6>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga voluptatibus possimus architecto aspernatur voluptate? Saepe.</p>
-                        <a href="#" class="card-link-more">More...</a>
+                        <div class="card-date">05-02-2020</div>
                     </div>
-                    <ul class="card-tags">
-                        <li class="tag-item"><a href="#">#item1</a></li>
-                        <li class="tag-item"><a href="#">#item2</a></li>
+                    <h6 class="card-subtitle">Subtitle</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nesciunt nihil rerum perferendis, autem quae.</p>
+                    <a href="#" class="card-link-more">More...</a>
+                </div>
+                <div class="card-tags">
+                    <div class="card-tags-title">Tags: </div>
+                    <ul class="card-tags-items">
+                        <li class="card-tags-item"><a href="#">#HTML</a></li>
+                        <li class="card-tags-item"><a href="#">#JavaScript</a></li>
                     </ul>
-                </section>
+                </div>
+            </section>
 
-                <section class="card">
-                    <img src="images/medium/image_md_7.jpg" class="card-image" alt="Post 7">
-                    <div class="card-body">
-                        <div class="card-section">Design</div>
+            <section class="card">
+                <div class="card-body">
+                    <div class="card-header">
+                        <img src="images/medium/image_md_7.jpg" class="card-image" alt="Post 7">
+                        <div class="card-section">Events</div>
                         <h5 class="card-title">Post 7 title</h5>
-                        <div class="card-date">05-05-2020</div>
-                        <h6 class="card-subtitle">Subtitle</h6>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti illo enim neque aut unde voluptatibus.</p>
-                        <a href="#" class="card-link-more">More...</a>
+                        <div class="card-date">05-03-2020</div>
                     </div>
-                    <ul class="card-tags">
-                        <li class="tag-item"><a href="#">#item1</a></li>
-                        <li class="tag-item"><a href="#">#item2</a></li>
+                    <h6 class="card-subtitle">Subtitle</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nesciunt nihil rerum perferendis, autem quae.</p>
+                    <a href="#" class="card-link-more">More...</a>
+                </div>
+                <div class="card-tags">
+                    <div class="card-tags-title">Tags: </div>
+                    <ul class="card-tags-items">
+                        <li class="card-tags-item"><a href="#">#HTML</a></li>
+                        <li class="card-tags-item"><a href="#">#JavaScript</a></li>
                     </ul>
-                </section>
+                </div>
+            </section>
 
-                <section class="card">
-                    <img src="images/medium/image_md_8.jpg" class="card-image" alt="Post 8">
-                    <div class="card-body">
-                        <div class="card-section">JavaScript</div>
+            <section class="card">
+                <div class="card-body">
+                    <div class="card-header">
+                        <img src="images/medium/image_md_8.jpg" class="card-image" alt="Post 8">
+                        <div class="card-section">Events</div>
                         <h5 class="card-title">Post 8 title</h5>
-                        <div class="card-date">05-08-2020</div>
-                        <h6 class="card-subtitle">Subtitle</h6>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae optio ratione fugiat quis animi reprehenderit.</p>
-                        <a href="#" class="card-link-more">More...</a>
+                        <div class="card-date">05-04-2020</div>
                     </div>
-                    <ul class="card-tags">
-                        <li class="tag-item"><a href="#">#item1</a></li>
-                        <li class="tag-item"><a href="#">#item2</a></li>
+                    <h6 class="card-subtitle">Subtitle</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In nesciunt nihil rerum perferendis, autem quae.</p>
+                    <a href="#" class="card-link-more">More...</a>
+                </div>
+                <div class="card-tags">
+                    <div class="card-tags-title">Tags: </div>
+                    <ul class="card-tags-items">
+                        <li class="card-tags-item"><a href="#">#HTML</a></li>
+                        <li class="card-tags-item"><a href="#">#JavaScript</a></li>
                     </ul>
-                </section>
-                
-            </main>
-        </div>
+                </div>
+            </section>
+            
+        </main>
 
-        <footer class="footer">
-            <div class="copyright">© 2020 | GrafSoul'Blog | Created Dmitriy Zatulovskiy</div>
-            <nav>
-                <ul class="footer-menu">
-                    <li class="menu-item"><a href="#">Item 1</a></li>
-                    <li class="menu-item"><a href="#">Item 2</a></li>
-                    <li class="menu-item"><a href="#">Item 3</a></li>
-                    <li class="menu-item"><a href="#">Item 4</a></li>
+        <aside class="sidebar">
+            <section class="search">
+                <form action="" method="">
+                    <input type="search" placeholder="Search" value=""> 
+                    <input type="submit" value="">
+                </form>
+            </section>
+
+            <section class="headings">
+                <nav>
+                    <ul class="second-menu">
+                        <li class="menu-item"><a href="#">Item 1</a></li>
+                        <li class="menu-item"><a href="#">Item 2</a></li>
+                        <li class="menu-item"><a href="#">Item 3</a></li>
+                        <li class="menu-item"><a href="#">Item 4</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="news">
+                <nav>
+                    <ul class="second-menu">
+                        <li class="menu-item"><a href="#">Item 1</a></li>
+                        <li class="menu-item"><a href="#">Item 2</a></li>
+                        <li class="menu-item"><a href="#">Item 3</a></li>
+                        <li class="menu-item"><a href="#">Item 4</a></li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <section class="archives">
+                <nav>
+                    <ul class="second-menu">
+                        <li class="menu-item"><a href="#">Item 1</a></li>
+                        <li class="menu-item"><a href="#">Item 2</a></li>
+                        <li class="menu-item"><a href="#">Item 3</a></li>
+                        <li class="menu-item"><a href="#">Item 4</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-wrap">
+            <a href="/" class="logo-sm"></a>
+            <nav class="footer-menu">
+                <ul class="menu-content">
+                    <li class="menu-item"><a class="menu-item-link active" href="#">Home</a></li>
+                    <li class="menu-item"><a class="menu-item-link"  href="#">HTML</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">CSS</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">JavaScript</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">About Me</a></li>
+                    <li class="menu-item"><a class="menu-item-link" href="#">Subscribe</a></li>
                 </ul>
             </nav>
-        </footer> 
-
-    </div>
+            <div class="copyright">© GrafSoul'Blog | 2020 | Created by Dmitriy Zatulovskiy</div>
+        </div>
+    </footer>
 
 </body>
 </html>
