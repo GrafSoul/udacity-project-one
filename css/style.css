@@ -110,7 +110,7 @@ body {
   height: 28px;
   margin: 0 auto 15px;
   padding: 0;
-  background: url('/images/logo_lg.png') top left no-repeat;
+  background: url('../images/logo_lg.png') top left no-repeat;
 }
 
 /* Main menu */
@@ -565,7 +565,7 @@ body {
   height: 42px;
   outline: none;
   border: none;
-  background: url('/images/icon_search.png') top left no-repeat;
+  background: url('../images/icon_search.png') top left no-repeat;
   cursor: pointer;
   position: absolute;
   top: 0;
@@ -584,7 +584,7 @@ body {
   width: 120px;
   height: 20px;
   margin: 0 auto 10px;
-  background: url('/images/logo_sm.png') top left no-repeat;
+  background: url('../images/logo_sm.png') top left no-repeat;
 }
 
 .footer .copyright {
