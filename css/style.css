@@ -35,7 +35,7 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.5em;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -291,13 +291,23 @@ body {
   box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.4);
 }
 
-.article .article-header,
+
 .card .card-header {
   position: relative;
   min-height: 180px;
-  overflow: hidden;
   background-color: rgb(1, 75, 66);
 }
+
+.article .article-header {
+  position: relative;
+  min-height: 300px;
+  background-color: rgb(1, 75, 66);  
+}
+
+.article .article-header img {
+  min-height: 100%;
+}
+
 .card .card-header-box {
   padding: 15px 20px 10px;
   background-color: rgba(0, 63, 52, 0.8);
@@ -306,11 +316,12 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  transition: all 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
 .article .article-header-box {
-  padding: 30px 40px 18px;
+  max-height: 300px;
+  padding: 30px 40px 18px;  
   background-color: rgba(0, 63, 52, 0.9);
   position: absolute;
   bottom: 0;
@@ -320,14 +331,11 @@ body {
 }
 
 .card .card-header-box:hover {
+  border-top: 3px solid rgb(0, 133, 111);
   background-color: rgba(0, 63, 52, 0.9); 
   -webkit-box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.4);
   box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.4);
-}
-
-.card .card-header-box:hover h2 {
-  text-decoration: underline;
 }
 
 .article .article-section,
@@ -335,7 +343,7 @@ body {
   display: inline-block;
   margin: 0 0 10px;
   padding: 10px 5px 11px;
-  color: rgb(231, 231, 231);  
+  color: rgb(231, 231, 231);
   font-weight: 600;
   font-size: 0.8em;
   line-height: 0em;
@@ -351,14 +359,22 @@ body {
   font-size: 1.2em;
   line-height: 1.4em;
   text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .article .article-title {
   margin: 0 0 20px; 
-  color: rgb(255, 255, 255); 
+  color: rgb(255, 255, 255);
   font-weight: 600;
   font-size: 1.6em;
   line-height: 1.6em;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .article .article-date,
@@ -447,7 +463,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  border-top: 1px solid  rgb(174, 223, 215); 
+  border-top: 1px solid  rgb(174, 223, 215);
 }
 
 .article .article-tags-items,
@@ -490,10 +506,17 @@ body {
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
+@media(max-width: 430px) {
+  .article .article-header-box {
+    background-color: rgba(0, 63, 52, 1);
+  }
+}
+
 /* Breadcrumbs styles */
 .breadcrumbs {  
   padding: 0 0 20px;
 }
+
 .breadcrumbs-content {
   display: flex;
   flex-direction: row;
@@ -536,6 +559,23 @@ body {
   font-size: 1em;  
   color: rgb(0, 207, 173);
   padding: 0;
+}
+
+@media(max-width: 430px) {
+  .breadcrumbs-content {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .breadcrumbs .breadcrumb-item::before {
+    content: "| " ;
+  }
+  .breadcrumbs .breadcrumb-item::after {
+    content: " |" ;
+    font-size: 1em;  
+    color: rgb(0, 207, 173);
+    padding: 0;
+  }
 }
 
 /* Pagination styles */
