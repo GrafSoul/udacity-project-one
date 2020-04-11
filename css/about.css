@@ -1,6 +1,6 @@
 .about-avatar {
-    width:300px;
-    height: 300px;
+    width:200px;
+    height: 200px;
     margin: 0 auto 30px;
     overflow: hidden;
     border: 5px solid rgba(0, 63, 52, 0.3);
@@ -8,13 +8,20 @@
     -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
     -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
     box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
-    transition: box-shadow 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .about-avatar:hover {
     -webkit-box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.43);
     -moz-box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.4);
     box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.4);
+}
+
+@media(min-width: 420px) {
+    .about-avatar {
+        width:300px;
+        height: 300px;
+    } 
 }
 
 .about-name {
