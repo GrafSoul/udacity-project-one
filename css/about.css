@@ -1,0 +1,110 @@
+.about-avatar {
+    width:300px;
+    height: 300px;
+    margin: 0 auto 30px;
+    overflow: hidden;
+    border: 5px solid rgba(0, 63, 52, 0.3);
+    border-radius: 24px;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    transition: box-shadow 0.2s ease-in;
+}
+
+.about-avatar:hover {
+    -webkit-box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.43);
+    -moz-box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.4);
+}
+
+.about-name {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.about-name .nick{
+    font-weight: 400;
+}
+
+.about-job {
+    text-align: center;
+    margin: 0 0 30px;
+    font-weight: 400;
+}
+
+.about-bio {
+    font-size: 1.1em;
+}
+
+.social {
+    padding: 0;
+}
+
+.social .social-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.social .social-item {
+    width: 42px;
+    height: 42px;
+    margin: 5px;
+}
+
+.social .social-image {
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: url('../images/icons_social.png') 0 0 no-repeat;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    transition: box-shadow 0.2s ease-in;
+}
+
+.social .social-image:hover {
+    -webkit-box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.43);
+    -moz-box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.4);
+}
+
+.social .social-image:active {
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
+}
+
+.social .social-image.twitter { 
+    background-position: 0 0; 
+}
+
+.social .social-image.facebook { 
+    background-position: 0 -84px; 
+}
+
+.social .social-image.linkedin { 
+    background-position: 0 -168px; 
+}
+
+.social .social-image.github { 
+    background-position: 0 -252px; 
+}
+
+.social .social-image.twitter:hover {
+    background-position: 0 -42px;
+}
+
+.social .social-image.facebook:hover {
+    background-position: 0 -126px;
+}
+
+.social .social-image.linkedin:hover {
+    background-position: 0 -210px;
+}
+
+.social .social-image.github:hover {
+    background-position: 0 -294px;
+}

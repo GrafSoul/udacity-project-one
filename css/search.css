@@ -1,0 +1,30 @@
+/* Search styles */
+.search form {
+    height: 44px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+  
+.search .search-input {
+    width: 100%;
+    padding: 10px 10px 10px 15px;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.search .search-submit {
+    width: 44px;
+    height: 42px;
+    outline: none;
+    border: none;
+    background: url('../images/icon_search.png') top left no-repeat;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

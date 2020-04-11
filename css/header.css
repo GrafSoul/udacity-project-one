@@ -1,0 +1,115 @@
+/* Header styles */
+.header {
+    width: 100%;
+    display: block;
+    padding: 20px 0 0;
+    background-color: rgb(0, 63, 52);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    border-bottom: 3px solid rgb(0, 133, 111);
+}
+
+.header .header-wrap {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header .logo-lg {
+    display: block;
+    width: 168px;
+    height: 28px;
+    margin: 0 auto 15px;
+    padding: 0;
+    background: url('../images/logo_lg.png') top left no-repeat;
+}
+
+/* Main menu */
+.header .main-menu {
+    display: block;
+    border-top: 1px solid rgb(0, 90, 75);
+    background-color: rgb(223, 245, 241);
+}
+
+.header .menu-content {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.header .main-menu .menu-item {
+    display: block;
+    list-style: none;
+}
+
+.header .main-menu .menu-item-link {
+    display: block;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    color: rgb(0, 63, 52);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    white-space: nowrap;
+    border-bottom: 1px solid rgb(0, 131, 109);
+    transition: background-color 0.3s ease;
+}
+
+.header .main-menu .menu-item-link.active,
+.header .main-menu .menu-item-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(1, 75, 66);
+}
+
+/* Header Media Queries */
+@media (max-width:300px) {
+    .header {
+        width: 300px;
+    }
+}
+
+@media (min-width:820px) {
+    .header {
+        height: 60px;
+        padding: 0;
+    }
+
+    .header .header-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(0, 63, 52);
+    }
+
+    .header .logo-lg {
+        margin: 5px 0 0 20px;
+    }
+
+    /* Main menu */
+    .header .main-menu {
+        border: none;
+        background-color: rgb(0, 63, 52);
+    }
+
+    .header .menu-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .header .main-menu .menu-item-link {
+        padding: 18px 20px 17px 20px;
+        color: rgba(255,255,255,1);
+        border: none;
+        box-sizing: content-box;
+    }
+
+    .header .main-menu .menu-item-link.active,
+    .header .main-menu .menu-item-link:hover {
+        margin-bottom: -3px;
+        border-bottom: 3px solid rgb(2, 189, 158);
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgb(0, 105, 92);
+    }
+}
