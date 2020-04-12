@@ -6,7 +6,7 @@
     padding: 0;
     position: relative;
 }
-  
+
 .search .search-input {
     width: 100%;
     padding: 10px 10px 10px 15px;
@@ -16,15 +16,19 @@
     top: 0;
     left: 0;
 }
-  
+
 .search .search-submit {
     width: 44px;
     height: 42px;
     outline: none;
     border: none;
-    background: url('../images/icon_search.png') top left no-repeat;
+    background: url('../images/icon_search.png') 0 0 no-repeat;
     cursor: pointer;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.search .search-submit:hover {
+    background-position: 0 -42px;
 }

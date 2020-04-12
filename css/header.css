@@ -1,5 +1,5 @@
 /* Header styles */
-.header {
+#header {
     width: 100%;
     display: block;
     padding: 20px 0 0;
@@ -8,13 +8,13 @@
     border-bottom: 3px solid rgb(0, 133, 111);
 }
 
-.header .header-wrap {
+#header .header-wrap {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
 }
 
-.header .logo-lg {
+#header .logo-lg {
     display: block;
     width: 168px;
     height: 28px;
@@ -24,24 +24,24 @@
 }
 
 /* Main menu */
-.header .main-menu {
+#header .main-menu {
     display: block;
     border-top: 1px solid rgb(0, 90, 75);
     background-color: rgb(223, 245, 241);
 }
 
-.header .menu-content {
+#header .menu-content {
     display: block;
     margin: 0;
     padding: 0;
 }
 
-.header .main-menu .menu-item {
+#header .main-menu .menu-item {
     display: block;
     list-style: none;
 }
 
-.header .main-menu .menu-item-link {
+#header .main-menu .menu-item-link {
     display: block;
     padding: 10px 20px 10px 20px;
     text-align: center;
@@ -54,26 +54,26 @@
     transition: background-color 0.3s ease;
 }
 
-.header .main-menu .menu-item-link.active,
-.header .main-menu .menu-item-link:hover {
+#header .main-menu .menu-item-link.active,
+#header .main-menu .menu-item-link:hover {
     color: rgba(255, 255, 255, 0.8);
     background-color: rgb(1, 75, 66);
 }
 
 /* Header Media Queries */
 @media (max-width:300px) {
-    .header {
+    #header {
         width: 300px;
     }
 }
 
 @media (min-width:820px) {
-    .header {
+    #header {
         height: 60px;
         padding: 0;
     }
 
-    .header .header-wrap {
+    #header .header-wrap {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -81,32 +81,32 @@
         background-color: rgb(0, 63, 52);
     }
 
-    .header .logo-lg {
+    #header .logo-lg {
         margin: 5px 0 0 20px;
     }
 
     /* Main menu */
-    .header .main-menu {
+    #header .main-menu {
         border: none;
         background-color: rgb(0, 63, 52);
     }
 
-    .header .menu-content {
+    #header .menu-content {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: start;
     }
 
-    .header .main-menu .menu-item-link {
+    #header .main-menu .menu-item-link {
         padding: 18px 20px 17px 20px;
         color: rgba(255,255,255,1);
         border: none;
         box-sizing: content-box;
     }
 
-    .header .main-menu .menu-item-link.active,
-    .header .main-menu .menu-item-link:hover {
+    #header .main-menu .menu-item-link.active,
+    #header .main-menu .menu-item-link:hover {
         margin-bottom: -3px;
         border-bottom: 3px solid rgb(2, 189, 158);
         color: rgba(255, 255, 255, 0.8);

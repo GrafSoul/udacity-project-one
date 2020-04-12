@@ -2,7 +2,7 @@
 .card {
     cursor: default;
     margin: 10px;
-    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: rgba(255, 255, 255, 0.8);
     -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
     -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
     box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.3);
@@ -54,8 +54,8 @@
 }
 
 .card .card-title {
-    margin: 0 0 7px; 
-    color: rgb(255, 255, 255); 
+    margin: 0 0 7px;
+    color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 1.2em;
     line-height: 1.4em;
@@ -78,6 +78,15 @@
 .card .card-content {
     padding: 20px;
 }
+
+.card .card-figcaption {
+    display: block;
+    margin: 0 0 20px; 
+    color: rgb(50, 50,50);
+    font-weight: 400;
+    font-size: 0.7em;
+    line-height: 1.2em;
+  }
 
 .card .card-subtitle {
     margin: 0 0 10px;

@@ -2,71 +2,74 @@
 .pagination {
     margin: 20px 15px 15px;
     transition: all .5s;
-  }
-  
-  .pagination .page-numbers {
-    display: block;
+}
+
+.pagination .page-numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
-  }
-  
-  .pagination .page-numbers li {
+}
+
+.pagination .page-numbers li {
     display: inline-block;
     margin: 6px 3px;
-  }
-  
-  .pagination .page-numbers .page-item {
+}
+
+.pagination .page-numbers .page-item {
     text-decoration: none;
     padding: 6px 10px;
     color: rgb(0, 82, 69);
     background-color: rgb(201, 228, 224);
     border-radius: 3px;
-  }
-  
-  .pagination .page-numbers .page-item:hover {
+}
+
+.pagination .page-numbers .page-item:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 180, 150);
     -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
-  }
-  
-  .pagination .page-numbers .page-item.dots,
-  .pagination .page-numbers .page-item.current {
+}
+
+.pagination .page-numbers .page-item.dots,
+.pagination .page-numbers .page-item.current {
     cursor: default;
     color: rgb(156, 155, 155);
     background-color: transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-  }
-  
-  .pagination .page-numbers .page-item.prev,
-  .pagination .page-numbers .page-item.next {
+}
+
+.pagination .page-numbers .page-item.prev,
+.pagination .page-numbers .page-item.next {
     background-color: transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-  }
-  
-  .pagination .page-numbers .page-item.prev:hover,
-  .pagination .page-numbers .page-item.next:hover {
+}
+
+.pagination .page-numbers .page-item.prev:hover,
+.pagination .page-numbers .page-item.next:hover {
     color: rgb(0, 82, 69);
     text-decoration: underline;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-  }
-  
-  /* Footer Media Queries */
-  @media (max-width:510px) {
+}
+
+/* Footer Media Queries */
+@media (max-width:510px) {
+
     .pagination .page-numbers li {
-      display: block;
-      margin-bottom: 5px;
+        display: block;
+        margin: 3px;
     }
+
     .pagination .page-numbers .page-item {
-      display: block;
-      max-width: 100px;
-      margin: auto;
+        display: block;
+        max-width: 100px;
     }
-  }
-  
+}

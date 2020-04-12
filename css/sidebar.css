@@ -2,14 +2,14 @@
 .sidebar {
     padding: 10px 10px 10px 10px;
 }
-  
+
 /* Saidebar Media queries */
  @media (min-width:820px) {
     .sidebar {
       padding: 20px 10px 30px 10px;
     }
 }
-  
+
 .sidebar .sidebar-box {
     margin-bottom: 23px;
     background-color: rgb(255, 255, 255);
@@ -18,17 +18,17 @@
     box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.3);
     transition: all 0.2s ease-in;
 }
-  
+
 .sidebar .sidebar-box:hover {
     -webkit-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.4);
     box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.4);
 }
-  
+
 .sidebar .sidebar-box.search {
     border-bottom: 2px solid rgb(0, 165, 137);
 }
-  
+
 .sidebar .sidebar-title {
     padding: 10px 10px 10px 15px;
     font-size: 1em;
@@ -36,27 +36,27 @@
     color: rgb(0, 63, 52);
     background-color: rgb(218, 236, 233);
 }
-  
+
 /* Sidebar Menu styles */
 .sidebar .second-menu {
     display: block;
     padding: 20px;
 }
-  
+
 .sidebar .second-menu .menu-item {
     margin: 0 0 8px 20px;
     list-style: square;
     font-size: 1.05em;
     color: rgb(0, 165, 137);
 }
-  
+
 .sidebar .second-menu .menu-item a {
     font-size: 1em;
     line-height: 1.4em;
     text-decoration: none;
     color: rgb(0, 63, 52);
 }
-  
+
 .sidebar .second-menu .menu-item a:hover {
     text-decoration: underline;
 }
