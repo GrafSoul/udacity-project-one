@@ -21,10 +21,8 @@
     background-color: rgb(1, 75, 66);
 }
 
-.card .card-header-box {
-    padding: 15px 20px 10px;
+.card .card-header-caption {
     background-color: rgba(0, 63, 52, 0.8);
-    text-decoration: none;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -32,12 +30,18 @@
     transition: box-shadow 0.3s ease;
 }
 
-.card .card-header-box:hover {
+.card .card-header-caption:hover {
     border-top: 3px solid rgb(0, 133, 111);
     background-color: rgba(0, 63, 52, 0.9); 
     -webkit-box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.4);
     box-shadow: 5px 5px 12px 1px rgba(0, 0, 0, 0.4);
+}
+
+.card .card-header-link {
+    display: block;
+    padding: 15px 20px 10px;
+    text-decoration: none;
 }
 
 .card .card-section {
@@ -79,14 +83,14 @@
     padding: 20px;
 }
 
-.card .card-figcaption {
+.card .card-photo-caption {
     display: block;
     margin: 0 0 20px; 
     color: rgb(50, 50,50);
     font-weight: 400;
     font-size: 0.7em;
     line-height: 1.2em;
-  }
+}
 
 .card .card-subtitle {
     margin: 0 0 10px;
