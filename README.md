@@ -1,5 +1,7 @@
 # Project One - Personal Blog Website (HTML, CSS).
-Training project for [Udacity.com]
+Training project for [Udacity.com]. Certificate Nanodegree Program - [Front End Web Developer]
+
+<img src="./certificate/certificate.svg" alt="Certificate Udacity" width="600" />
 
 ### Project structure
 
@@ -30,10 +32,14 @@ Training project for [Udacity.com]
 
 ### Copyright
 The contents of the repository can be freely used and distributed.
-
 Social network icons are based on materials provided free of charge by social networks (Twitter, Facebook, LinkedIn, GitHub).
-
 The project uses photos distributed free of charge through the service [Unsplash.com]. Authors: Adrian Converse, Annie Spratt, Atul Vignak, Cole Problems, Divazus Fabric, Omid Armin By Pavel Chervinsky, Ricardo Gomez Angel, Sumner Mahaffy.
+
+### License
+© 2020 Personal Blog Website is [MIT licensed].
 
 [Unsplash.com]: http://unsplash.com
 [Udacity.com]: https://www.udacity.com/
+[MIT licensed]: https://github.com/GrafSoul/udacity-project-one/blob/master/LICENSE.txt
+
+[Front End Web Developer]: https://confirm.udacity.com/7QM9HD6
